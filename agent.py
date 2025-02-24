@@ -9,16 +9,6 @@ class Agent:
         self.score = 0
 
 
-    def selectNode(self):
-        node = random.choice(self.environment.graph.getNodes())
-        print("Selected node is: ", node)
-        return node
-
-    def selectColor(self):
-        color = random.choice(self.environment.getColors())
-        print("Selected color is: ", color)
-        return color
-
     def attemptToColorNode(self, node, color):
         """Attempt to color a node and receive a reward."""
         self.environment.agentAction(self, node, color)

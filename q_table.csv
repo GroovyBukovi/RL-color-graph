@@ -1,0 +1,63 @@
+Node Colors,Adjacency Info,Action,Q-value
+"('Gray', 'Gray', 'Gray', 'Gray')","(1, 1, 0, 1)","(4, 'blue')",1.594
+"('Gray', 'Gray', 'Gray', 'blue')","(0, 1, 1, 0)","(3, 'blue')",0.09400000000000001
+"('Gray', 'Gray', 'blue', 'blue')","(0, 1, 1, 0)","(1, 'cyan')",1.594
+"('cyan', 'Gray', 'blue', 'blue')","(0, 1, 1, 0)","(2, 'olive')",1.594
+"('cyan', 'olive', 'blue', 'blue', 'Gray')","(1, 0, 1, 1, 1)","(4, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'Gray')","(0, 1, 1, 0, 1)","(5, 'pink')",1.594
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'Gray')","(1, 0, 1, 1, 1, 0)","(3, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'Gray')","(1, 1, 0, 1, 0, 0)","(6, 'pink')",1.594
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 1, 0, 1, 0, 0, 1)","(6, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 0, 1, 0, 0, 1, 0)","(4, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(0, 1, 1, 0, 1, 0, 1)","(5, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 1, 0, 0, 0, 0, 0)","(2, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 1, 0, 0, 0, 0, 0)","(5, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(0, 1, 1, 0, 1, 0, 1)","(3, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 1, 0, 0, 0, 0, 0)","(1, 'blue')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(0, 1, 1, 0, 1, 0, 1)","(5, 'pink')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(0, 1, 1, 0, 1, 0, 1)","(5, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 0, 1, 0, 0, 1, 0)","(5, 'violet')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 0, 1, 1, 1, 0, 0)","(2, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'Gray')","(1, 1, 0, 0, 0, 0, 0)","(7, 'orange')",1.594
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0)","(2, 'pink')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1)","(6, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 1, 1, 0, 1, 0, 1, 1)","(7, 'brown')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1)","(6, 'blue')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0)","(7, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 1, 1, 0, 1, 0, 1, 1)","(6, 'brown')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 1, 0, 1, 0, 0, 1, 0)","(4, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 1, 1, 0, 1, 0, 1, 1)","(1, 'pink')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1)","(7, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 1, 0, 0, 0, 0, 0, 0)","(5, 'orange')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 0, 0, 1, 0, 0, 1, 0)","(1, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0)","(2, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 1, 1, 0, 1, 0, 1, 1)","(4, 'orange')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1)","(8, 'cyan')",0.09400000000000001
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 1, 0, 0, 0, 0, 0, 0, 0)","(4, 'violet')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 1, 0, 1, 0, 0, 1, 0, 0)","(8, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 1, 0, 0, 0, 0, 0, 0, 0)","(5, 'pink')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1, 1)","(3, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1, 1)","(4, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 0, 1, 0, 0, 1, 0, 1)","(3, 'orange')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(0, 1, 1, 0, 1, 0, 1, 1, 0)","(2, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1, 1)","(7, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1, 1)","(7, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 1, 0, 0, 0, 0, 0, 0, 0)","(2, 'brown')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(0, 0, 0, 1, 0, 0, 1, 1, 0)","(8, 'violet')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1, 1)","(8, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 0, 1, 0, 0, 1, 0, 1)","(7, 'pink')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0, 0)","(8, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1, 1)","(8, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1, 1)","(3, 'blue')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'Gray')","(0, 0, 0, 1, 0, 0, 1, 0, 0)","(9, 'pink')",1.594
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0, 0, 1)","(2, 'red')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1, 1, 1)","(5, 'violet')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 1, 0, 1, 0, 0, 1, 0, 0, 0)","(8, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 0, 1, 0, 0, 1, 0, 1, 1, 1)","(7, 'pink')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0, 0, 1)","(2, 'cyan')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 1, 0, 1, 0, 0, 1, 0, 0, 0)","(4, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 0, 1, 1, 1, 0, 0, 0, 0, 1)","(1, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(0, 1, 1, 0, 0, 1, 0, 1, 1, 1)","(2, 'gold')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 0, 0, 1, 0, 0, 1, 0, 1, 1)","(5, 'olive')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(0, 1, 1, 0, 1, 0, 1, 1, 0, 0)","(6, 'green')",-0.055999999999999994
+"('cyan', 'olive', 'blue', 'blue', 'pink', 'pink', 'orange', 'cyan', 'pink', 'Gray')","(1, 1, 0, 1, 0, 0, 1, 0, 0, 0)","(10, 'pink')",0.09400000000000001

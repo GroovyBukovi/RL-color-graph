@@ -94,7 +94,7 @@ class Graph:
         """Returns the color of a specific node."""
         return self.colors.get(node, "Node not found")
 
-    def find_neighboring_conflicts(self):
+    def findNeighboringConflicts(self):
         """Finds and prints neighboring nodes that have the same color. If none exist, prints success message."""
         conflicts_found = False  # Track if any conflicts exist
 
@@ -122,59 +122,8 @@ class Graph:
         plt.savefig(name)  # Save instead of show
         print("Graph visualization saved")
 
-    '''def visualize(self, name, layout="circular"):
-        """Draws the graph using networkx and matplotlib with improved visibility."""
-        plt.figure(figsize=(16, 12))
-
-        # Choose different layout methods
-        if layout == "spring":
-            pos = nx.spring_layout(self.graph, k=0.3, seed=42)  # Adjust "k" for better node spacing
-        elif layout == "circular":
-            pos = nx.circular_layout(self.graph)  # Forces circular node placement
-        elif layout == "random":
-            pos = nx.random_layout(self.graph)  # Completely random placement
-        else:
-            pos = nx.spring_layout(self.graph)  # Default layout
-
-        node_colors = [self.colors.get(node, 'gray') for node in self.graph.nodes]
-
-        # Draw edges with better visibility
-        nx.draw(self.graph, pos, with_labels=True, node_color=node_colors, edge_color='black',
-                node_size=450, font_size=15, font_color='white', width=1.5, alpha=0.6)
-
-        plt.savefig(name)  # Save instead of show
-        print(f"Graph visualization saved as {name}")'''
 
     def printEdges(self):
         """Prints the current state of connections as a list of tuples."""
         print(list(self.graph.edges))
-
-    '''def sortNodes(self):
-        for node in self.colors:
-            if self.colors[node] is not "Gray":
-                self.colored_nodes.append(node)
-            else:
-                self.uncolored_nodes.append(node)'''
-
-
-
-
-'''# Example Usage
-g = Graph()
-
-
-
-print(g.get_nodes())
-g.print_edges()
-for i in range (10):
-    new_node = g.add_node()
-print(g.get_nodes())
-g.print_edges()
-
-
-for node in g.get_nodes():
-    color = random.choice(['red', 'blue', 'green', 'yellow', 'purple', 'orange'])
-    g.color_node(node,color)
-g.visualize()
-print(g.colors)'''
 

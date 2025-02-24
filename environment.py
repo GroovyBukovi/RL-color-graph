@@ -4,7 +4,7 @@ from QLearningAgent import QLearningAgent
 
 class Environment:
 
-    def __init__(self,number_of_agents, colors, reward, penalty, k):
+    def __init__(self, colors, reward, penalty, k):
         """
         Initialize the graph with the exact structure described in the exercise.
         """
@@ -15,10 +15,6 @@ class Environment:
         self.penalty =penalty
         self.agents = []
         self.colors = colors
-        '''for i in range (number_of_agents):
-            new_agent = QLearningAgent(agent_counter, self)
-            self.agents.append(new_agent)
-            agent_counter = agent_counter + 1'''
         self.agent = QLearningAgent(agent_counter, self)
         #self.agent = Agent(agent_counter, self)
 
@@ -62,12 +58,36 @@ class Environment:
             agent.getAndStoreReward(-1)
 
 
-    def getCurrentState(self):
-        """Returns a tuple representing the current state of the graph."""
-        node_colors = tuple(self.graph.colors.values())  # Color of each node
-        adjacency_matrix = tuple(
-            tuple(1 if j in self.graph.getNeighbors(i) else 0 for j in self.graph.getNodes()) for i in
-            self.graph.getNodes())
+    def getCurrentState(self, action_node):
+        """Returns a tuple representing the current state for the selected action node."""
 
-        return (node_colors, adjacency_matrix)  # Return state tuple
+        if action_node is None:
+            return ("Unknown", ())  # Default state if no node is selected
 
+        # Get the colors of all nodes
+        node_colors = tuple(self.graph.colors.values())
+
+        # Get adjacency info only for the action node
+        adjacency_info = tuple(1 if neighbor in self.graph.getNeighbors(action_node) else 0
+                               for neighbor in self.graph.getNodes())
+
+        return (node_colors, adjacency_info)  # Return only relevant information
+
+    def count_correctly_colored_nodes(self):
+        """Counts the number of correctly colored nodes when the graph has exactly 10 nodes."""
+
+        if len(self.graph.getNodes()) != 10:
+            return 0  # Only count when the graph has exactly 10 nodes
+
+        correctly_colored_count = 0
+
+        for node in self.graph.getNodes():
+            node_color = self.graph.getNodeColor(node)
+            if node_color == "Gray":
+                continue  # Skip uncolored nodes
+
+            neighbor_colors = self.graph.getNeighborsColors(node)
+            if node_color not in neighbor_colors:  # If no neighbors have the same color
+                correctly_colored_count += 1
+
+        return correctly_colored_count
